@@ -1,5 +1,6 @@
 name: Sjekk for nye tweets og publiser dem
 on:
+  workflow_dispatch:
   schedule:
     - cron: "20/15 * * * *"
 
